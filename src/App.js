@@ -1,8 +1,9 @@
 import './App.css';
+import { RoutesComponent } from './RoutesComponent.js';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <RoutesComponent/>
   );
 }
 
