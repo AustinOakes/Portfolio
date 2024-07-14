@@ -4,6 +4,7 @@ import portrait from './../../images/portrait.jpg'
 import resume from './../../resume/Resume_AustinOakes_20240219.docx'
 
 export default function HeaderV2 () {
+    
     return <>
         <nav>
             <div className='flex flex-column align-center'>
