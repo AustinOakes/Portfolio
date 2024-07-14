@@ -9,7 +9,7 @@ export default function HeaderV2 () {
                 <img src={portrait} className='portrait flex'></img>
                 <h5>Software Developer</h5>
             </div>
-            <div className='flex flex-column'>
+            <div className='button-container flex flex-column'>
                 <button><a href="/">Home</a></button>
                 <button><a href="/projects">Projects</a></button>
                 <button><a href="#">Resume</a></button>

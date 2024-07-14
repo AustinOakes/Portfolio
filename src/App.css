@@ -39,9 +39,8 @@ h1 {
     align-items: center;
 }
 
-
 @keyframes shakeUpDown {
-    0%, 15%, 100% { /* 0.5s shake, 2.5s still = 3s total */
+    0%, 15%, 100% { 
       transform: translateY(0);
     }
     5% {

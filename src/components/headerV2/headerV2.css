@@ -15,6 +15,7 @@ nav {
 
 nav i {
     font-size: 16px;
+    margin: 0 5px;
     color: #FFFFFF;
 }
 
@@ -23,12 +24,13 @@ nav h3, nav h5 {
 }
 
 nav button {
-    background-color: transparent;
+    background-color: #040f16;
     padding: 10px 0;
     font-size: 14px;
     font-weight: bold;
     border: none;
     border-top: 1px solid #092434;
+    transition: transform 0.3s ease;
 }
 
 nav button a {
@@ -37,21 +39,36 @@ nav button a {
 }
 
 nav button:hover {
+    border-top: 1px solid #6D8A96;
+    border-right: 2px solid #092434;
     background-color: #6D8A96;
+    transform: translateX(5px);
+}
+
+nav i:hover {
+    color: #6D8A96;
+    transition: transform 0.3s ease;
+    transform: scale(1.3, 1.3);
 }
 
 .portrait {
     border: 1px solid white;
-    border-radius: 50%;
-    width: 75%;
+    border-radius: 10%;
+    width: 55%;
     align-self: center;
 }
 
 .icon-container {
     width: 100%;
     border-top: 1px solid #092434;
+    background-color: #040f16;
     padding: 10px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-self: center;
 }
+
+.button-container {
+    background-color: #6D8A96;
+}
+
