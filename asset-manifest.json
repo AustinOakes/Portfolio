@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6ae33c2f.css",
+    "main.js": "/Portfolio/static/js/main.c538f120.js",
+    "static/media/portrait.jpg": "/Portfolio/static/media/portrait.9e4a439cd302e3c36af6.jpg",
+    "static/media/Resume_AustinOakes_20240219.docx": "/Portfolio/static/media/Resume_AustinOakes_20240219.1eac341680fa9ebe471c.docx",
+    "index.html": "/Portfolio/index.html",
+    "main.6ae33c2f.css.map": "/Portfolio/static/css/main.6ae33c2f.css.map",
+    "main.c538f120.js.map": "/Portfolio/static/js/main.c538f120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ae33c2f.css",
+    "static/js/main.c538f120.js"
+  ]
+}
