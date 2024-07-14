@@ -9,6 +9,11 @@ body {
 h1 {
     color: #040f16;
     font-size: 75px;
+    margin: 10px;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .flex {
@@ -30,6 +35,20 @@ h1 {
 
 .flex-end {
     justify-content: flex-end;
+}
+
+.alt-section-color {
+  background-color: #376996;
+}
+
+.alt-section-color h1 {
+  color: white;
+}
+
+.color-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .section-container {

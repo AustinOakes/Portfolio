@@ -8,6 +8,11 @@ export const HomePage = () => {
                 <h1>Hey! Welcome in!</h1>
                 <i className="fa-solid fa-chevron-down shake"></i>
             </div>
+            <div className="color-container alt-section-color">
+                <div className='section-container flex flex-column'>
+                    <h1>More content on the way...</h1>
+                </div>
+            </div>
         </div>
     </>
 }
