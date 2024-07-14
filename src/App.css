@@ -12,6 +12,26 @@ h1 {
     margin: 10px;
 }
 
+a:link, a:visited {
+  color: #040f16;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 9px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: #040f16;
+}
+
+.btn:hover {
+  background-color: #6D8A96;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transform: scale(1.2, 1.2);
+}
+
 .full-width {
   width: 100%;
 }
@@ -71,7 +91,23 @@ h1 {
     }
   }
   
-  .shake {
-    animation: shakeUpDown 4s ease-in-out infinite;
-    font-size: 50px;
-  }
+.shake {
+  animation: shakeUpDown 4s ease-in-out infinite;
+  font-size: 50px;
+}
+
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #040f16;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6D8A96;
+  border: 3px solid #040f16;
+  border-radius: 10px;
+}

@@ -1,3 +1,4 @@
+import {HashLink} from "react-router-hash-link"
 import Header from "../components/headerV2/headerV2"
 import CertCard from "../components/cert-card/cert-card"
 import {pbi_details, az_details, powplat_details} from "./../cert-data.js"
@@ -8,9 +9,9 @@ export const HomePage = () => {
         <div className="flex flex-end flex-column align-end">
             <div className='section-container flex flex-column'>
                 <h1>Hey! Welcome in!</h1>
-                <i className="fa-solid fa-chevron-down shake"></i>
+                <HashLink smooth to="#certifications"><i className="fa-solid fa-chevron-down shake"></i></HashLink>
             </div>
-            <div className="color-container alt-section-color">
+            <div id="certifications" className="color-container alt-section-color">
                 <div className='section-container flex flex-column'>
                     <h1>Certifications</h1>
                     <CertCard 

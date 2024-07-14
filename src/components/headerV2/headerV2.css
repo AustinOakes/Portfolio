@@ -42,7 +42,7 @@ nav button {
 }
 
 nav button a {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-decoration: none;
 }
 
@@ -79,4 +79,5 @@ nav i:hover {
 .button-container {
     background-color: #6D8A96;
 }
+
 
