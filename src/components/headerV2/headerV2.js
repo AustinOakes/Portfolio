@@ -1,5 +1,6 @@
 import './headerV2.css'
 import portrait from './../../images/portrait.jpg'
+import resume from './../../resume/Resume_AustinOakes_20240219.docx'
 
 export default function HeaderV2 () {
     return <>
@@ -12,7 +13,7 @@ export default function HeaderV2 () {
             <div className='button-container flex flex-column'>
                 <button><a href="/">Home</a></button>
                 <button><a href="/projects">Projects</a></button>
-                <button><a href="#">Resume</a></button>
+                <button><a href={resume} download>Resume</a></button>
                 <button><a href="/contact">Contact</a></button>
                 <div className='icon-container'>
                     <a href="https://github.com/AustinOakes"><i className="fa-brands fa-square-github"></i></a>
