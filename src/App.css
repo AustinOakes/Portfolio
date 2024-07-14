@@ -8,6 +8,7 @@ body {
 
 h1 {
     color: #040f16;
+    font-size: 75px;
 }
 
 .flex {
@@ -44,13 +45,14 @@ h1 {
       transform: translateY(0);
     }
     5% {
-      transform: translateY(-3px);
+      transform: translateY(-6px);
     }
     10% {
-      transform: translateY(3px);
+      transform: translateY(6px);
     }
   }
   
   .shake {
     animation: shakeUpDown 4s ease-in-out infinite;
+    font-size: 50px;
   }

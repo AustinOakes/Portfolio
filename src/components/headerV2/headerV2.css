@@ -14,19 +14,27 @@ nav {
 }
 
 nav i {
-    font-size: 16px;
-    margin: 0 5px;
+    font-size: 32px;
+    margin: 0 10px;
     color: #FFFFFF;
 }
 
-nav h3, nav h5 {
+nav h1{
+    font-size: 50px;
+}
+
+nav h3 {
+    font-size: 30px;
+}
+
+nav h1, nav h3 {
     color: #FFFFFF;
 }
 
 nav button {
     background-color: #040f16;
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 20px 0;
+    font-size: 28px;
     font-weight: bold;
     border: none;
     border-top: 1px solid #092434;
@@ -42,7 +50,7 @@ nav button:hover {
     border-top: 1px solid #6D8A96;
     border-right: 2px solid #092434;
     background-color: #6D8A96;
-    transform: translateX(5px);
+    transform: translateX(10px);
 }
 
 nav i:hover {
@@ -62,7 +70,7 @@ nav i:hover {
     width: 100%;
     border-top: 1px solid #092434;
     background-color: #040f16;
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-self: center;

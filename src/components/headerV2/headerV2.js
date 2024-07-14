@@ -7,9 +7,9 @@ export default function HeaderV2 () {
     return <>
         <nav>
             <div className='flex flex-column align-center'>
-                <h3>Austin Oakes</h3>
+                <h1>Austin Oakes</h1>
                 <img src={portrait} className='portrait flex'></img>
-                <h5>Software Developer</h5>
+                <h3>Software Developer</h3>
             </div>
             <div className='button-container flex flex-column'>
                 <button><Link to="/">Home</Link></button>
