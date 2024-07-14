@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import './headerV2.css'
 import portrait from './../../images/portrait.jpg'
 import resume from './../../resume/Resume_AustinOakes_20240219.docx'
@@ -11,10 +12,10 @@ export default function HeaderV2 () {
                 <h5>Software Developer</h5>
             </div>
             <div className='button-container flex flex-column'>
-                <button><a href="/">Home</a></button>
-                <button><a href="/projects">Projects</a></button>
+                <button><Link to="/">Home</Link></button>
+                <button><Link to="/projects">Projects</Link></button>
                 <button><a href={resume} download>Resume</a></button>
-                <button><a href="/contact">Contact</a></button>
+                <button><Link to="/contact">Contact</Link></button>
                 <div className='icon-container'>
                     <a href="https://github.com/AustinOakes"><i className="fa-brands fa-square-github"></i></a>
                     <a href="https://www.linkedin.com/in/austin-oakes-88945914b/"><i className="fa-brands fa-linkedin"></i></a>
