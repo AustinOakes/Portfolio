@@ -18,7 +18,7 @@ export default function HeaderV2 () {
                 <button><Link to="/contact">Contact</Link></button>
                 <div className='icon-container'>
                     <a href="https://github.com/AustinOakes"><i className="fa-brands fa-square-github"></i></a>
-                    <a href="https://www.linkedin.com/in/austin-oakes-88945914b/"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/austin-oakes/"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </nav>
