@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import './headerV2.css'
 import portrait from './../../images/portrait.jpg'
-import resume from './../../resume/Resume_AustinOakes_20240219.docx'
+import resume from './../../resume/Resume_AustinOakes_20240725.docx'
 
 export default function HeaderV2 () {
     
