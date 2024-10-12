@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6f2f1ee8.css",
-    "main.js": "/Portfolio/static/js/main.ea83dd9c.js",
+    "main.css": "/Portfolio/static/css/main.0edabcfd.css",
+    "main.js": "/Portfolio/static/js/main.d19ec354.js",
     "static/media/Resume_AustinOakes_20240925.pdf": "/Portfolio/static/media/Resume_AustinOakes_20240925.172cfae710616ec24ba0.pdf",
     "static/media/portrait.jpg": "/Portfolio/static/media/portrait.9e4a439cd302e3c36af6.jpg",
     "static/media/power-platform.png": "/Portfolio/static/media/power-platform.d14359264ac07b25f928.png",
     "static/media/power-bi.png": "/Portfolio/static/media/power-bi.9accaf84a39f4cdd3de5.png",
     "static/media/azure.png": "/Portfolio/static/media/azure.7f908c7a15c09da3e260.png",
     "index.html": "/Portfolio/index.html",
-    "main.6f2f1ee8.css.map": "/Portfolio/static/css/main.6f2f1ee8.css.map",
-    "main.ea83dd9c.js.map": "/Portfolio/static/js/main.ea83dd9c.js.map"
+    "main.0edabcfd.css.map": "/Portfolio/static/css/main.0edabcfd.css.map",
+    "main.d19ec354.js.map": "/Portfolio/static/js/main.d19ec354.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f2f1ee8.css",
-    "static/js/main.ea83dd9c.js"
+    "static/css/main.0edabcfd.css",
+    "static/js/main.d19ec354.js"
   ]
 }
