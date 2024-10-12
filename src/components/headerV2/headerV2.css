@@ -5,7 +5,7 @@ nav {
     justify-content: space-evenly;
     height: 100vh;
     width: 20%;
-    background-color: #040f16;
+    background-color: #4B70E7;
     box-shadow: 6px 0px 7px rgba(0, 0, 0, .3);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -25,6 +25,7 @@ nav h1{
 
 nav h3 {
     font-size: 28px;
+    margin-top: 0px;
 }
 
 nav h1, nav h3 {
@@ -32,12 +33,12 @@ nav h1, nav h3 {
 }
 
 nav button {
-    background-color: #040f16;
+    background-color: #4B70E7;
     padding: 20px 0;
     font-size: 28px;
     font-weight: bold;
     border: none;
-    border-top: 1px solid #092434;
+    border-top: 2px solid #3c55a8;
     transition: transform 0.3s ease;
 }
 
@@ -47,29 +48,30 @@ nav button a {
 }
 
 nav button:hover {
-    border-top: 1px solid #6D8A96;
+    border-top: 2px solid #3c55a8;
     border-right: 2px solid #092434;
-    background-color: #6D8A96;
+    background-color: #334faa;
     transform: translateX(10px);
 }
 
 nav i:hover {
-    color: #6D8A96;
+    color: #2D364D;
     transition: transform 0.3s ease;
     transform: scale(1.3, 1.3);
 }
 
 .portrait {
-    border: 1px solid white;
+    box-shadow: -4px 6px 4px rgba(173, 173, 173, 0.3);
     border-radius: 10%;
-    width: 55%;
+    width: 65%;
     align-self: center;
+    margin-bottom: 25px;
 }
 
 .icon-container {
     width: 100%;
-    border-top: 1px solid #092434;
-    background-color: #040f16;
+    border-top: 2px solid #3c55a8;
+    background-color: #4B70E7;
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -77,7 +79,7 @@ nav i:hover {
 }
 
 .button-container {
-    background-color: #6D8A96;
+    background-color: #2D364D;
 }
 
 

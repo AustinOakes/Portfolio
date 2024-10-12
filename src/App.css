@@ -7,13 +7,15 @@ body {
     margin: auto;
     background-color: #FFFFFF;
     color: #040f16;
-    font-family: "Roboto";
+    font-family: "Montserrat";
+    font-weight: 400;
 }
 
 h1 {
-    color: #040f16;
-    font-size: 75px;
-    margin: 10px;
+    color: #2D364D;
+    letter-spacing: 4px;
+    font-size: 60px;
+    margin: 5px 10px;
 }
 
 a:link, a:visited {
@@ -21,7 +23,7 @@ a:link, a:visited {
 }
 
 .btn {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   font-size: 18px;
   padding: 9px;
   border: none;
@@ -62,11 +64,12 @@ a:link, a:visited {
 }
 
 .alt-section-color {
-  background-color: #3c573c;
+  background-color: White;
 }
 
 .alt-section-color h1 {
-  color: white;
+  color: #4B70E7;
+  text-shadow: 2px 2px 1px rgba(116, 116, 116, .3);
 }
 
 .color-container {
@@ -98,6 +101,10 @@ a:link, a:visited {
 .shake {
   animation: shakeUpDown 4s ease-in-out infinite;
   font-size: 50px;
+}
+
+.royal-blue {
+  color: #4B70E7;
 }
 
 /* Scrollbar Styles */
