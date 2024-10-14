@@ -4,6 +4,7 @@ export let pbi_details = {
     earnedDate: "May 11, 2023",
     expirationDate: "May 11, 2025",
     image: "power-bi",
+    url: "https://learn.microsoft.com/api/credentials/share/en-us/AustinOakes-4645/9FFD52769024555E?sharingId=F5708B4B0DCECA49"
 }
 
 export let az_details = {
@@ -12,6 +13,7 @@ export let az_details = {
     earnedDate: "March 19, 2022",
     expirationDate: "N/A",
     image: "azure",
+    url: "https://learn.microsoft.com/api/credentials/share/en-us/AustinOakes-4645/11CC98FD995F69FE?sharingId=F5708B4B0DCECA49"
 }
 
 export let powplat_details = {
@@ -20,4 +22,5 @@ export let powplat_details = {
     earnedDate: "October 30, 2022",
     expirationDate: "N/A",
     image: "power-platform",
+    url: "https://learn.microsoft.com/api/credentials/share/en-us/AustinOakes-4645/E03A49200F416AC7?sharingId=F5708B4B0DCECA49"
 }

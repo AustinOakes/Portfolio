@@ -12,7 +12,7 @@ export default function CertCard (props) {
                 <p>Earned: {props.earnedDate}</p>
                 <p>Expiration: {props.expirationDate}</p>
             </div>
-            <a href=""><img className="cert-img" src={VerifyImage(props.image)}></img></a>
+            <a href={props.url}  target="_blank" rel="noopener noreferrer"><img className="cert-img" src={VerifyImage(props.image)}></img></a>
         </div>
     </>
 }
