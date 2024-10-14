@@ -106,16 +106,12 @@ nav i:hover {
 
 @media only screen and (min-width : 1224px) and (max-width : 1824px){
 
-
-
-
-    
     nav h1 {
         font-size: 28px;
     }
     
     nav h3 {
-        font-size: 21px;
+        font-size: 19px;
         margin-top: 0px;
     }
   

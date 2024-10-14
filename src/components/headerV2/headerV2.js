@@ -20,8 +20,8 @@ export default function HeaderV2 () {
                 <div className="link-container"><HashLink smooth to="#certifications">Certifications</HashLink></div>
                 <div className="link-container"><a href={resume} download>Resume</a></div>
                 <div className='icon-container'>
-                    <a href="https://github.com/AustinOakes"><i className="fa-brands fa-square-github"></i></a>
-                    <a href="https://www.linkedin.com/in/austin-oakes/"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AustinOakes" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/austin-oakes/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </nav>
