@@ -13,3 +13,25 @@
     width: 200px;
     height: 200px;
 }
+
+@media only screen and (min-width : 1224px) and (max-width : 1824px){
+
+    .card-container {
+        padding: 12px;
+        margin: 9px;
+    }
+  
+    .cert-img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .card-container h2{
+        font-size: 18px;
+    }
+
+    .card-container p{
+        font-size: 14px;
+    }
+
+  }

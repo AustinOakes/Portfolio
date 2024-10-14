@@ -26,18 +26,6 @@ a:link, a:visited {
   color: #040f16;
 }
 
-.btn {
-  font-family: "Montserrat";
-  font-size: 18px;
-  letter-spacing: 4px;
-  padding: 9px;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  background-color: #040f16;
-}
-
-
 .full-width {
   width: 100%;
 }
@@ -100,10 +88,9 @@ a:link, a:visited {
 }
 
 .image {
-  box-shadow: 0px 0px 6px rgb(65, 65, 65);
+  box-shadow: 0px 0px 9px rgb(50, 50, 50);
   border-radius: 10%;
-  width: 300px;
-  height: 300px;
+  width: 13vw;
   margin-bottom: 25px;
 }
 
@@ -142,4 +129,19 @@ a:link, a:visited {
   background-color: #6D8A96;
   border: 3px solid #040f16;
   border-radius: 10px;
+}
+
+
+
+
+
+@media only screen and (min-width : 1224px) and (max-width : 1824px){
+
+  h1, h3 {
+      color: #2D364D;
+      letter-spacing: 4px;
+      font-size: 45px;
+      margin: 5px 10px;
+  }
+
 }

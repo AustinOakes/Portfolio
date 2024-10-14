@@ -12,7 +12,7 @@ export const HomePage = () => {
         <div className="flex flex-end flex-column align-end">
             <div id="welcome" className='section-container flex flex-column'>
                 <h1><span className="royal-blue">Hey!</span> Welcome in!</h1>
-                <HashLink smooth to="#certifications"><i className="fa-solid fa-chevron-down shake royal-blue"></i></HashLink>
+                <HashLink smooth to="#about-me"><i className="fa-solid fa-chevron-down shake royal-blue"></i></HashLink>
             </div>
             <div id="about-me" className='section-container flex flex-column'>
                 <h1>About Me</h1>
