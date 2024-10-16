@@ -154,8 +154,9 @@ nav i:hover {
     .icon-container {
         width: 100%;
         border-top: none;
-        background-color: none;
-        padding: auto;
+        padding: 0;
+        height:10vh;
+        align-items: center;
     }
 
     nav i:hover {

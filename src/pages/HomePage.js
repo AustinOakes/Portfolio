@@ -49,6 +49,9 @@ export const HomePage = () => {
                             I feel incredibly grateful to have been surrounded by supportive family, friends, and mentors who inspired me to pursue a path in a field that truly excites me.
                             Over the years, I've had the privelege of working with multiple clients, creating innovative solutions to meet their uniqe challenges.
                         </p>
+                        <p>
+                            When I'm not writing code, you'll find me indulging in video games, learning photography or spending time with my fiancée and our dog.
+                        </p>
                     </div>
                     <HashLink smooth to="#certifications"><i className="fa-solid fa-chevron-down shake royal-blue"></i></HashLink>
                 </div>
