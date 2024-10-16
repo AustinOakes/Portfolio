@@ -33,5 +33,25 @@
     .card-container p{
         font-size: 14px;
     }
+}
 
-  }
+@media only screen and (min-width : 300px) and (max-width : 1223px){
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .cert-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-container {
+        text-align: center;
+        width: 90%;
+        padding: 6px;
+        flex-direction: column;
+    }
+
+
+}

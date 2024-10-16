@@ -13,11 +13,12 @@ nav {
     z-index: 9999;
 }
 
-nav i {
+nav i, nav span {
     font-size: 32px;
     margin: 0 10px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgb(50, 50, 50);
+    text-decoration: none;
 }
 
 nav h1 {
@@ -64,7 +65,7 @@ nav h1, nav h3 {
     width: 65%;
     align-self: center;
     margin-bottom: 25px;
-  }
+}
 
 .link-container:hover {
     border-top: 2px solid #3c55a8;
@@ -103,18 +104,22 @@ nav i:hover {
     width: 100%;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (min-width : 1224px) and (max-width : 1824px){
 
     nav h1 {
         font-size: 28px;
     }
-    
+
     nav h3 {
         font-size: 19px;
         margin-top: 0px;
     }
-  
+
     .link-container {
         background-color: #4B70E7;
         font-size: 21px;
@@ -128,10 +133,34 @@ nav i:hover {
         transition: transform 0.3s ease;
         letter-spacing: 4px;
     }
-  
-  
-  
-  
-  
-  
-  }
+}
+
+@media only screen and (min-width : 300px) and (max-width : 1223px){
+    
+    nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 100%;
+        background-color: #4B70E7;
+        box-shadow: 0px 6px 7px rgba(0, 0, 0, .3);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-weight: bold;
+        z-index: 9999;
+    }
+
+    .icon-container {
+        width: 100%;
+        border-top: none;
+        background-color: none;
+        padding: auto;
+    }
+
+    nav i:hover {
+        color: #FFFFFF;
+        transition: none;
+        transform: none;
+    }
+}

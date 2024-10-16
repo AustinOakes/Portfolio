@@ -8,11 +8,11 @@ export default function CertCard (props) {
         <div className="card-container flex">
             <div>
                 <h2>{props.title}</h2>
-                <p>{props.description}</p>
-                <p>Earned: {props.earnedDate}</p>
-                <p>Expiration: {props.expirationDate}</p>
+                <p className="mobile-hide">{props.description}</p>
+                <p className="mobile-hide">Earned: {props.earnedDate}</p>
+                <p className="mobile-hide">Expiration: {props.expirationDate}</p>
             </div>
-            <a href={props.url}  target="_blank" rel="noopener noreferrer"><img className="cert-img" src={VerifyImage(props.image)}></img></a>
+            <a href={props.url}  target="_blank" rel="noopener noreferrer"><img className="cert-img pulse" src={VerifyImage(props.image)}></img></a>
         </div>
     </>
 }
